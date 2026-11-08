@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Cửa hàng kính áp tròng Lens Studio. Khám phá lens ngày, lens tháng và dụng cụ.">
+  <title>Lens Studio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Đến nội dung chính</a>
+  <p class="demo-bar" id="demo-bar" hidden>Bản xem trước · Đơn thử chỉ lưu trên trình duyệt</p>
+  <header class="site-header">
+    <div class="frame header-inner">
+      <a class="wordmark" href="#trang-chu" id="brand" aria-label="Lens Studio, trang chủ">Lens Studio</a>
+      <nav class="site-nav" aria-label="Menu chính">
+        <a href="#trang-chu">Trang chủ</a>
+        <a href="#cua-hang">Cửa hàng</a>
+        <a href="#da-dat">Đã đặt</a>
+        <a href="#gio-hang">Giỏ hàng <span class="count" data-count hidden></span></a>
+      </nav>
+      <a class="mobile-cart" href="#gio-hang">Giỏ hàng <span class="count" data-count hidden></span></a>
+    </div>
+  </header>
+  <main id="main" tabindex="-1"><p class="frame loading">Đang tải cửa hàng…</p></main>
+  <footer class="site-footer">
+    <div class="frame footer-inner">
+      <nav aria-label="Thông tin cửa hàng">
+        <a href="#doi-tra">Đổi trả và hoàn tiền</a>
+        <a href="#giao-hang">Giao hàng</a>
+        <a href="#lien-he">Liên hệ</a>
+      </nav>
+      <strong class="footer-brand" id="footer-brand">Lens Studio</strong>
+      <div id="socials" class="socials"></div>
+    </div>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript>Vui lòng bật JavaScript để sử dụng cửa hàng.</noscript>
+</body>
+</html>

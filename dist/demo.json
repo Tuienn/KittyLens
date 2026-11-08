@@ -1,0 +1,1795 @@
+{
+  "settings": {
+    "brand": "Lens Studio",
+    "banners": [
+      "assets/reference/banner-1.jpg",
+      "assets/reference/banner-2.jpg"
+    ],
+    "shipping_fee": 13000,
+    "cod_deposit": 20000,
+    "accepting_orders": true
+  },
+  "products": [
+    {
+      "slug": "glow-eye",
+      "name": "Glow Eye",
+      "category": "monthly",
+      "price": 89000,
+      "description": "Lens tháng · Bán theo đôi cùng độ.",
+      "images": [
+        "assets/reference/glow-eye-1.jpg",
+        "assets/reference/glow-eye-2.jpg"
+      ],
+      "diameter": 14.5,
+      "colored_diameter": 14.26,
+      "base_curve": 8.6,
+      "water_content": 38,
+      "sort_order": 0
+    },
+    {
+      "slug": "admit-pink",
+      "name": "Admit Pink",
+      "category": "daily",
+      "price": 49000,
+      "description": "Lens ngày · Bán theo đôi cùng độ.",
+      "images": [
+        "assets/reference/admit-pink-1.jpg",
+        "assets/reference/admit-pink-2.jpg"
+      ],
+      "diameter": 14.5,
+      "colored_diameter": 13.8,
+      "base_curve": 8.6,
+      "water_content": 55,
+      "sort_order": 1
+    },
+    {
+      "slug": "toast-brown",
+      "name": "Toast Brown",
+      "category": "monthly",
+      "price": 79000,
+      "description": "Lens tháng · Bán theo đôi cùng độ.",
+      "images": [
+        "assets/reference/toast-brown-1.jpg",
+        "assets/reference/toast-brown-2.jpg"
+      ],
+      "diameter": 14.2,
+      "colored_diameter": 13.43,
+      "base_curve": 8.6,
+      "water_content": 38,
+      "sort_order": 2
+    },
+    {
+      "slug": "gummy-brown",
+      "name": "Gummy Brown",
+      "category": "monthly",
+      "price": 79000,
+      "description": "Lens tháng · Bán theo đôi cùng độ.",
+      "images": [
+        "assets/reference/gummy-brown-1.jpg"
+      ],
+      "diameter": 14.5,
+      "colored_diameter": 13.7,
+      "base_curve": 8.6,
+      "water_content": 38,
+      "sort_order": 3
+    },
+    {
+      "slug": "sugary-gray",
+      "name": "Sugary Gray",
+      "category": "monthly",
+      "price": 79000,
+      "description": "Lens tháng · Bán theo đôi cùng độ.",
+      "images": [
+        "assets/reference/sugary-gray-1.jpg"
+      ],
+      "diameter": 14.5,
+      "colored_diameter": 13.75,
+      "base_curve": 8.6,
+      "water_content": 38,
+      "sort_order": 4
+    },
+    {
+      "slug": "crystal-sugar",
+      "name": "Crystal Sugar",
+      "category": "monthly",
+      "price": 89000,
+      "description": "Lens tháng · Bán theo đôi cùng độ.",
+      "images": [
+        "assets/reference/crystal-sugar-1.jpg",
+        "assets/reference/crystal-sugar-2.jpg"
+      ],
+      "diameter": 14.2,
+      "colored_diameter": 13.4,
+      "base_curve": 8.6,
+      "water_content": 38,
+      "sort_order": 5
+    },
+    {
+      "slug": "ocean-pearl",
+      "name": "Ocean Pearl",
+      "category": "monthly",
+      "price": 89000,
+      "description": "Lens tháng · Bán theo đôi cùng độ.",
+      "images": [
+        "assets/reference/ocean-pearl-1.jpg",
+        "assets/reference/ocean-pearl-2.jpg"
+      ],
+      "diameter": 14.5,
+      "colored_diameter": 13.9,
+      "base_curve": 8.6,
+      "water_content": 38,
+      "sort_order": 6
+    },
+    {
+      "slug": "vitality-green",
+      "name": "Vitality-Green",
+      "category": "daily",
+      "price": 49000,
+      "description": "Lens ngày · Bán theo đôi cùng độ.",
+      "images": [
+        "assets/reference/vitality-green-1.jpg",
+        "assets/reference/vitality-green-2.jpg"
+      ],
+      "diameter": 14.5,
+      "colored_diameter": 14,
+      "base_curve": 8.6,
+      "water_content": 55,
+      "sort_order": 7
+    },
+    {
+      "slug": "honey-gray",
+      "name": "Honey Gray",
+      "category": "daily",
+      "price": 39000,
+      "description": "Lens ngày · Bán theo đôi cùng độ.",
+      "images": [
+        "assets/reference/honey-gray-1.jpg"
+      ],
+      "diameter": 14.5,
+      "colored_diameter": 13.4,
+      "base_curve": 8.6,
+      "water_content": 38,
+      "sort_order": 8
+    },
+    {
+      "slug": "merfolk-tears-blue",
+      "name": "Merfolk Tears Blue",
+      "category": "daily",
+      "price": 49000,
+      "description": "Lens ngày · Bán theo đôi cùng độ.",
+      "images": [
+        "assets/reference/merfolk-tears-blue-1.jpg",
+        "assets/reference/merfolk-tears-blue-2.jpg"
+      ],
+      "diameter": 14.5,
+      "colored_diameter": 13.9,
+      "base_curve": 8.6,
+      "water_content": 55,
+      "sort_order": 9
+    },
+    {
+      "slug": "thai-pure-tea",
+      "name": "Thai Pure Tea",
+      "category": "daily",
+      "price": 49000,
+      "description": "Lens ngày · Bán theo đôi cùng độ.",
+      "images": [
+        "assets/reference/thai-pure-tea-1.jpg",
+        "assets/reference/thai-pure-tea-2.jpg"
+      ],
+      "diameter": 14.5,
+      "colored_diameter": 13.9,
+      "base_curve": 8.6,
+      "water_content": 55,
+      "sort_order": 10
+    },
+    {
+      "slug": "sweet-babe",
+      "name": "Sweet Babe",
+      "category": "daily",
+      "price": 39000,
+      "description": "Lens ngày · Bán theo đôi cùng độ.",
+      "images": [
+        "assets/reference/sweet-babe-1.jpg"
+      ],
+      "diameter": 14.5,
+      "colored_diameter": 14,
+      "base_curve": 8.6,
+      "water_content": 42,
+      "sort_order": 11
+    },
+    {
+      "slug": "pocket-pink",
+      "name": "Pocket Pink",
+      "category": "daily",
+      "price": 39000,
+      "description": "Lens ngày · Bán theo đôi cùng độ.",
+      "images": [
+        "assets/reference/pocket-pink-1.jpg"
+      ],
+      "diameter": 14.5,
+      "colored_diameter": 14,
+      "base_curve": 8.6,
+      "water_content": 38,
+      "sort_order": 12
+    },
+    {
+      "slug": "guard-pink",
+      "name": "Guard Pink",
+      "category": "daily",
+      "price": 39000,
+      "description": "Lens ngày · Bán theo đôi cùng độ.",
+      "images": [
+        "assets/reference/guard-pink-1.jpg"
+      ],
+      "diameter": 14.2,
+      "colored_diameter": 13.3,
+      "base_curve": 8.6,
+      "water_content": 42,
+      "sort_order": 13
+    },
+    {
+      "slug": "peach-frappe",
+      "name": "Peach Frappe",
+      "category": "daily",
+      "price": 49000,
+      "description": "Lens ngày · Bán theo đôi cùng độ.",
+      "images": [
+        "assets/reference/peach-frappe-1.jpg"
+      ],
+      "diameter": 14.5,
+      "colored_diameter": 13.87,
+      "base_curve": 8.6,
+      "water_content": 42,
+      "sort_order": 14
+    },
+    {
+      "slug": "khay",
+      "name": "Khay",
+      "category": "accessories",
+      "price": 7000,
+      "description": "Dụng cụ dành cho kính áp tròng.",
+      "images": [
+        "assets/reference/khay-1.jpg"
+      ],
+      "diameter": null,
+      "colored_diameter": null,
+      "base_curve": null,
+      "water_content": null,
+      "sort_order": 15
+    },
+    {
+      "slug": "dung-cu-deo-khay",
+      "name": "Dụng cụ đeo + khay",
+      "category": "accessories",
+      "price": 9000,
+      "description": "Dụng cụ dành cho kính áp tròng.",
+      "images": [
+        "assets/reference/dung-cu-deo-khay-1.jpg"
+      ],
+      "diameter": null,
+      "colored_diameter": null,
+      "base_curve": null,
+      "water_content": null,
+      "sort_order": 16
+    },
+    {
+      "slug": "dung-cu-deo",
+      "name": "Dụng cụ đeo",
+      "category": "accessories",
+      "price": 6000,
+      "description": "Dụng cụ dành cho kính áp tròng.",
+      "images": [
+        "assets/reference/dung-cu-deo-1.jpg"
+      ],
+      "diameter": null,
+      "colored_diameter": null,
+      "base_curve": null,
+      "water_content": null,
+      "sort_order": 17
+    },
+    {
+      "slug": "ngam-unicent",
+      "name": "Ngâm Unicent",
+      "category": "accessories",
+      "price": 35000,
+      "description": "Dụng cụ dành cho kính áp tròng.",
+      "images": [
+        "assets/reference/ngam-unicent-1.jpg"
+      ],
+      "diameter": null,
+      "colored_diameter": null,
+      "base_curve": null,
+      "water_content": null,
+      "sort_order": 18
+    },
+    {
+      "slug": "combo-ngam-khay-kem-dung-cu-deo",
+      "name": "Combo ngâm + khay ( kèm dụng cụ đeo )",
+      "category": "accessories",
+      "price": 42000,
+      "description": "Dụng cụ dành cho kính áp tròng.",
+      "images": [
+        "assets/reference/combo-ngam-khay-kem-dung-cu-deo-1.jpg",
+        "assets/reference/combo-ngam-khay-kem-dung-cu-deo-2.jpg"
+      ],
+      "diameter": null,
+      "colored_diameter": null,
+      "base_curve": null,
+      "water_content": null,
+      "sort_order": 19
+    }
+  ],
+  "variants": [
+    {
+      "id": "00000000-0000-0000-0000-000000000001",
+      "product_slug": "glow-eye",
+      "power": 0,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000002",
+      "product_slug": "glow-eye",
+      "power": 1,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000003",
+      "product_slug": "glow-eye",
+      "power": 1.5,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000004",
+      "product_slug": "glow-eye",
+      "power": 2,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000005",
+      "product_slug": "glow-eye",
+      "power": 2.5,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000006",
+      "product_slug": "glow-eye",
+      "power": 3,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000007",
+      "product_slug": "glow-eye",
+      "power": 3.5,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000008",
+      "product_slug": "glow-eye",
+      "power": 4,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000009",
+      "product_slug": "glow-eye",
+      "power": 4.5,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000000a",
+      "product_slug": "glow-eye",
+      "power": 5,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000000b",
+      "product_slug": "glow-eye",
+      "power": 5.5,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000000c",
+      "product_slug": "glow-eye",
+      "power": 6,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000000d",
+      "product_slug": "glow-eye",
+      "power": 6.5,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000000e",
+      "product_slug": "glow-eye",
+      "power": 7,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000000f",
+      "product_slug": "glow-eye",
+      "power": 7.5,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000010",
+      "product_slug": "glow-eye",
+      "power": 8,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000021",
+      "product_slug": "admit-pink",
+      "power": 0,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000022",
+      "product_slug": "admit-pink",
+      "power": 1,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000023",
+      "product_slug": "admit-pink",
+      "power": 1.5,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000024",
+      "product_slug": "admit-pink",
+      "power": 2,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000025",
+      "product_slug": "admit-pink",
+      "power": 2.5,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000026",
+      "product_slug": "admit-pink",
+      "power": 3,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000027",
+      "product_slug": "admit-pink",
+      "power": 3.5,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000028",
+      "product_slug": "admit-pink",
+      "power": 4,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000029",
+      "product_slug": "admit-pink",
+      "power": 4.5,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000002a",
+      "product_slug": "admit-pink",
+      "power": 5,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000002b",
+      "product_slug": "admit-pink",
+      "power": 5.5,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000002c",
+      "product_slug": "admit-pink",
+      "power": 6,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000002d",
+      "product_slug": "admit-pink",
+      "power": 6.5,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000002e",
+      "product_slug": "admit-pink",
+      "power": 7,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000002f",
+      "product_slug": "admit-pink",
+      "power": 7.5,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000030",
+      "product_slug": "admit-pink",
+      "power": 8,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000041",
+      "product_slug": "toast-brown",
+      "power": 0,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000042",
+      "product_slug": "toast-brown",
+      "power": 1,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000043",
+      "product_slug": "toast-brown",
+      "power": 1.5,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000044",
+      "product_slug": "toast-brown",
+      "power": 2,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000045",
+      "product_slug": "toast-brown",
+      "power": 2.5,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000046",
+      "product_slug": "toast-brown",
+      "power": 3,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000047",
+      "product_slug": "toast-brown",
+      "power": 3.5,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000048",
+      "product_slug": "toast-brown",
+      "power": 4,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000049",
+      "product_slug": "toast-brown",
+      "power": 4.5,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004a",
+      "product_slug": "toast-brown",
+      "power": 5,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004b",
+      "product_slug": "toast-brown",
+      "power": 5.5,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004c",
+      "product_slug": "toast-brown",
+      "power": 6,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004d",
+      "product_slug": "toast-brown",
+      "power": 6.5,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004e",
+      "product_slug": "toast-brown",
+      "power": 7,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004f",
+      "product_slug": "toast-brown",
+      "power": 7.5,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000050",
+      "product_slug": "toast-brown",
+      "power": 8,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000061",
+      "product_slug": "gummy-brown",
+      "power": 0,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000062",
+      "product_slug": "gummy-brown",
+      "power": 1,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000063",
+      "product_slug": "gummy-brown",
+      "power": 1.5,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000064",
+      "product_slug": "gummy-brown",
+      "power": 2,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000065",
+      "product_slug": "gummy-brown",
+      "power": 2.5,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000066",
+      "product_slug": "gummy-brown",
+      "power": 3,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000067",
+      "product_slug": "gummy-brown",
+      "power": 3.5,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000068",
+      "product_slug": "gummy-brown",
+      "power": 4,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000069",
+      "product_slug": "gummy-brown",
+      "power": 4.5,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000006a",
+      "product_slug": "gummy-brown",
+      "power": 5,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000006b",
+      "product_slug": "gummy-brown",
+      "power": 5.5,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000006c",
+      "product_slug": "gummy-brown",
+      "power": 6,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000006d",
+      "product_slug": "gummy-brown",
+      "power": 6.5,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000006e",
+      "product_slug": "gummy-brown",
+      "power": 7,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000006f",
+      "product_slug": "gummy-brown",
+      "power": 7.5,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000070",
+      "product_slug": "gummy-brown",
+      "power": 8,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000081",
+      "product_slug": "sugary-gray",
+      "power": 0,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000082",
+      "product_slug": "sugary-gray",
+      "power": 1,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000083",
+      "product_slug": "sugary-gray",
+      "power": 1.5,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000084",
+      "product_slug": "sugary-gray",
+      "power": 2,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000085",
+      "product_slug": "sugary-gray",
+      "power": 2.5,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000086",
+      "product_slug": "sugary-gray",
+      "power": 3,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000087",
+      "product_slug": "sugary-gray",
+      "power": 3.5,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000088",
+      "product_slug": "sugary-gray",
+      "power": 4,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000089",
+      "product_slug": "sugary-gray",
+      "power": 4.5,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000008a",
+      "product_slug": "sugary-gray",
+      "power": 5,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000008b",
+      "product_slug": "sugary-gray",
+      "power": 5.5,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000008c",
+      "product_slug": "sugary-gray",
+      "power": 6,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000008d",
+      "product_slug": "sugary-gray",
+      "power": 6.5,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000008e",
+      "product_slug": "sugary-gray",
+      "power": 7,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000008f",
+      "product_slug": "sugary-gray",
+      "power": 7.5,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000090",
+      "product_slug": "sugary-gray",
+      "power": 8,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000a1",
+      "product_slug": "crystal-sugar",
+      "power": 0,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000a2",
+      "product_slug": "crystal-sugar",
+      "power": 1,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000a3",
+      "product_slug": "crystal-sugar",
+      "power": 1.5,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000a4",
+      "product_slug": "crystal-sugar",
+      "power": 2,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000a5",
+      "product_slug": "crystal-sugar",
+      "power": 2.5,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000a6",
+      "product_slug": "crystal-sugar",
+      "power": 3,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000a7",
+      "product_slug": "crystal-sugar",
+      "power": 3.5,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000a8",
+      "product_slug": "crystal-sugar",
+      "power": 4,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000a9",
+      "product_slug": "crystal-sugar",
+      "power": 4.5,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000aa",
+      "product_slug": "crystal-sugar",
+      "power": 5,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000ab",
+      "product_slug": "crystal-sugar",
+      "power": 5.5,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000ac",
+      "product_slug": "crystal-sugar",
+      "power": 6,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000ad",
+      "product_slug": "crystal-sugar",
+      "power": 6.5,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000ae",
+      "product_slug": "crystal-sugar",
+      "power": 7,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000af",
+      "product_slug": "crystal-sugar",
+      "power": 7.5,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000b0",
+      "product_slug": "crystal-sugar",
+      "power": 8,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000c1",
+      "product_slug": "ocean-pearl",
+      "power": 0,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000c2",
+      "product_slug": "ocean-pearl",
+      "power": 1,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000c3",
+      "product_slug": "ocean-pearl",
+      "power": 1.5,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000c4",
+      "product_slug": "ocean-pearl",
+      "power": 2,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000c5",
+      "product_slug": "ocean-pearl",
+      "power": 2.5,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000c6",
+      "product_slug": "ocean-pearl",
+      "power": 3,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000c7",
+      "product_slug": "ocean-pearl",
+      "power": 3.5,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000c8",
+      "product_slug": "ocean-pearl",
+      "power": 4,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000c9",
+      "product_slug": "ocean-pearl",
+      "power": 4.5,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000ca",
+      "product_slug": "ocean-pearl",
+      "power": 5,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000cb",
+      "product_slug": "ocean-pearl",
+      "power": 5.5,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000cc",
+      "product_slug": "ocean-pearl",
+      "power": 6,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000cd",
+      "product_slug": "ocean-pearl",
+      "power": 6.5,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000ce",
+      "product_slug": "ocean-pearl",
+      "power": 7,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000cf",
+      "product_slug": "ocean-pearl",
+      "power": 7.5,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d0",
+      "product_slug": "ocean-pearl",
+      "power": 8,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000e1",
+      "product_slug": "vitality-green",
+      "power": 0,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000e2",
+      "product_slug": "vitality-green",
+      "power": 1,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000e3",
+      "product_slug": "vitality-green",
+      "power": 1.5,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000e4",
+      "product_slug": "vitality-green",
+      "power": 2,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000e5",
+      "product_slug": "vitality-green",
+      "power": 2.5,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000e6",
+      "product_slug": "vitality-green",
+      "power": 3,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000e7",
+      "product_slug": "vitality-green",
+      "power": 3.5,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000e8",
+      "product_slug": "vitality-green",
+      "power": 4,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000e9",
+      "product_slug": "vitality-green",
+      "power": 4.5,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000ea",
+      "product_slug": "vitality-green",
+      "power": 5,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000eb",
+      "product_slug": "vitality-green",
+      "power": 5.5,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000ec",
+      "product_slug": "vitality-green",
+      "power": 6,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000ed",
+      "product_slug": "vitality-green",
+      "power": 6.5,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000ee",
+      "product_slug": "vitality-green",
+      "power": 7,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000ef",
+      "product_slug": "vitality-green",
+      "power": 7.5,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000f0",
+      "product_slug": "vitality-green",
+      "power": 8,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000101",
+      "product_slug": "honey-gray",
+      "power": 0,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000102",
+      "product_slug": "honey-gray",
+      "power": 1,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000103",
+      "product_slug": "honey-gray",
+      "power": 1.5,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000104",
+      "product_slug": "honey-gray",
+      "power": 2,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000105",
+      "product_slug": "honey-gray",
+      "power": 2.5,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000106",
+      "product_slug": "honey-gray",
+      "power": 3,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000107",
+      "product_slug": "honey-gray",
+      "power": 3.5,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000108",
+      "product_slug": "honey-gray",
+      "power": 4,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000109",
+      "product_slug": "honey-gray",
+      "power": 4.5,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000010a",
+      "product_slug": "honey-gray",
+      "power": 5,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000010b",
+      "product_slug": "honey-gray",
+      "power": 5.5,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000010c",
+      "product_slug": "honey-gray",
+      "power": 6,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000010d",
+      "product_slug": "honey-gray",
+      "power": 6.5,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000010e",
+      "product_slug": "honey-gray",
+      "power": 7,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000010f",
+      "product_slug": "honey-gray",
+      "power": 7.5,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000110",
+      "product_slug": "honey-gray",
+      "power": 8,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000121",
+      "product_slug": "merfolk-tears-blue",
+      "power": 0,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000122",
+      "product_slug": "merfolk-tears-blue",
+      "power": 1,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000123",
+      "product_slug": "merfolk-tears-blue",
+      "power": 1.5,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000124",
+      "product_slug": "merfolk-tears-blue",
+      "power": 2,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000125",
+      "product_slug": "merfolk-tears-blue",
+      "power": 2.5,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000126",
+      "product_slug": "merfolk-tears-blue",
+      "power": 3,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000127",
+      "product_slug": "merfolk-tears-blue",
+      "power": 3.5,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000128",
+      "product_slug": "merfolk-tears-blue",
+      "power": 4,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000129",
+      "product_slug": "merfolk-tears-blue",
+      "power": 4.5,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000012a",
+      "product_slug": "merfolk-tears-blue",
+      "power": 5,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000012b",
+      "product_slug": "merfolk-tears-blue",
+      "power": 5.5,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000012c",
+      "product_slug": "merfolk-tears-blue",
+      "power": 6,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000012d",
+      "product_slug": "merfolk-tears-blue",
+      "power": 6.5,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000012e",
+      "product_slug": "merfolk-tears-blue",
+      "power": 7,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000012f",
+      "product_slug": "merfolk-tears-blue",
+      "power": 7.5,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000130",
+      "product_slug": "merfolk-tears-blue",
+      "power": 8,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000141",
+      "product_slug": "thai-pure-tea",
+      "power": 0,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000142",
+      "product_slug": "thai-pure-tea",
+      "power": 1,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000143",
+      "product_slug": "thai-pure-tea",
+      "power": 1.5,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000144",
+      "product_slug": "thai-pure-tea",
+      "power": 2,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000145",
+      "product_slug": "thai-pure-tea",
+      "power": 2.5,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000146",
+      "product_slug": "thai-pure-tea",
+      "power": 3,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000147",
+      "product_slug": "thai-pure-tea",
+      "power": 3.5,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000148",
+      "product_slug": "thai-pure-tea",
+      "power": 4,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000149",
+      "product_slug": "thai-pure-tea",
+      "power": 4.5,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000014a",
+      "product_slug": "thai-pure-tea",
+      "power": 5,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000014b",
+      "product_slug": "thai-pure-tea",
+      "power": 5.5,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000014c",
+      "product_slug": "thai-pure-tea",
+      "power": 6,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000014d",
+      "product_slug": "thai-pure-tea",
+      "power": 6.5,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000014e",
+      "product_slug": "thai-pure-tea",
+      "power": 7,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000014f",
+      "product_slug": "thai-pure-tea",
+      "power": 7.5,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000150",
+      "product_slug": "thai-pure-tea",
+      "power": 8,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000161",
+      "product_slug": "sweet-babe",
+      "power": 0,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000162",
+      "product_slug": "sweet-babe",
+      "power": 1,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000163",
+      "product_slug": "sweet-babe",
+      "power": 1.5,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000164",
+      "product_slug": "sweet-babe",
+      "power": 2,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000165",
+      "product_slug": "sweet-babe",
+      "power": 2.5,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000166",
+      "product_slug": "sweet-babe",
+      "power": 3,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000167",
+      "product_slug": "sweet-babe",
+      "power": 3.5,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000168",
+      "product_slug": "sweet-babe",
+      "power": 4,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000169",
+      "product_slug": "sweet-babe",
+      "power": 4.5,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000016a",
+      "product_slug": "sweet-babe",
+      "power": 5,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000016b",
+      "product_slug": "sweet-babe",
+      "power": 5.5,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000016c",
+      "product_slug": "sweet-babe",
+      "power": 6,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000016d",
+      "product_slug": "sweet-babe",
+      "power": 6.5,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000016e",
+      "product_slug": "sweet-babe",
+      "power": 7,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000016f",
+      "product_slug": "sweet-babe",
+      "power": 7.5,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000170",
+      "product_slug": "sweet-babe",
+      "power": 8,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000181",
+      "product_slug": "pocket-pink",
+      "power": 0,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000182",
+      "product_slug": "pocket-pink",
+      "power": 1,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000183",
+      "product_slug": "pocket-pink",
+      "power": 1.5,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000184",
+      "product_slug": "pocket-pink",
+      "power": 2,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000185",
+      "product_slug": "pocket-pink",
+      "power": 2.5,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000186",
+      "product_slug": "pocket-pink",
+      "power": 3,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000187",
+      "product_slug": "pocket-pink",
+      "power": 3.5,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000188",
+      "product_slug": "pocket-pink",
+      "power": 4,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000189",
+      "product_slug": "pocket-pink",
+      "power": 4.5,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000018a",
+      "product_slug": "pocket-pink",
+      "power": 5,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000018b",
+      "product_slug": "pocket-pink",
+      "power": 5.5,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000018c",
+      "product_slug": "pocket-pink",
+      "power": 6,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000018d",
+      "product_slug": "pocket-pink",
+      "power": 6.5,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000018e",
+      "product_slug": "pocket-pink",
+      "power": 7,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000018f",
+      "product_slug": "pocket-pink",
+      "power": 7.5,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000190",
+      "product_slug": "pocket-pink",
+      "power": 8,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001a1",
+      "product_slug": "guard-pink",
+      "power": 0,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001a2",
+      "product_slug": "guard-pink",
+      "power": 1,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001a3",
+      "product_slug": "guard-pink",
+      "power": 1.5,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001a4",
+      "product_slug": "guard-pink",
+      "power": 2,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001a5",
+      "product_slug": "guard-pink",
+      "power": 2.5,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001a6",
+      "product_slug": "guard-pink",
+      "power": 3,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001a7",
+      "product_slug": "guard-pink",
+      "power": 3.5,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001a8",
+      "product_slug": "guard-pink",
+      "power": 4,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001a9",
+      "product_slug": "guard-pink",
+      "power": 4.5,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001aa",
+      "product_slug": "guard-pink",
+      "power": 5,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001ab",
+      "product_slug": "guard-pink",
+      "power": 5.5,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001ac",
+      "product_slug": "guard-pink",
+      "power": 6,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001ad",
+      "product_slug": "guard-pink",
+      "power": 6.5,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001ae",
+      "product_slug": "guard-pink",
+      "power": 7,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001af",
+      "product_slug": "guard-pink",
+      "power": 7.5,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001b0",
+      "product_slug": "guard-pink",
+      "power": 8,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001c1",
+      "product_slug": "peach-frappe",
+      "power": 0,
+      "stock": 4
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001c2",
+      "product_slug": "peach-frappe",
+      "power": 1,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001c3",
+      "product_slug": "peach-frappe",
+      "power": 1.5,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001c4",
+      "product_slug": "peach-frappe",
+      "power": 2,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001c5",
+      "product_slug": "peach-frappe",
+      "power": 2.5,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001c6",
+      "product_slug": "peach-frappe",
+      "power": 3,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001c7",
+      "product_slug": "peach-frappe",
+      "power": 3.5,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001c8",
+      "product_slug": "peach-frappe",
+      "power": 4,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001c9",
+      "product_slug": "peach-frappe",
+      "power": 4.5,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001ca",
+      "product_slug": "peach-frappe",
+      "power": 5,
+      "stock": 6
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001cb",
+      "product_slug": "peach-frappe",
+      "power": 5.5,
+      "stock": 7
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001cc",
+      "product_slug": "peach-frappe",
+      "power": 6,
+      "stock": 8
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001cd",
+      "product_slug": "peach-frappe",
+      "power": 6.5,
+      "stock": 9
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001ce",
+      "product_slug": "peach-frappe",
+      "power": 7,
+      "stock": 10
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001cf",
+      "product_slug": "peach-frappe",
+      "power": 7.5,
+      "stock": 0
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001d0",
+      "product_slug": "peach-frappe",
+      "power": 8,
+      "stock": 5
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001e1",
+      "product_slug": "khay",
+      "power": null,
+      "stock": 12
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000201",
+      "product_slug": "dung-cu-deo-khay",
+      "power": null,
+      "stock": 12
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000221",
+      "product_slug": "dung-cu-deo",
+      "power": null,
+      "stock": 12
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000241",
+      "product_slug": "ngam-unicent",
+      "power": null,
+      "stock": 12
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000261",
+      "product_slug": "combo-ngam-khay-kem-dung-cu-deo",
+      "power": null,
+      "stock": 12
+    }
+  ]
+}
