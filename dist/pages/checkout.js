@@ -1,9 +1,10 @@
 import { orderAmounts, placeOrder, write } from '../store.js';
 import {
   cart, cartDetails, cartKey, cartState, pendingAttempt, quickCheckoutRoute, quickPurchase,
-  saveCart, saveQuickPurchase, subtotal, validCart
+  saveCart, saveQuickPurchase, validCart
 } from '../shared/cart.js';
 import { rememberOrder, summary } from '../shared/order.js';
+import { lensPairCount, shippingNotice } from '../shared/shipping.js';
 import { button, escape, money, numberFormat, page } from '../shared/ui.js';
 
 function selection(route) {
@@ -21,8 +22,10 @@ export function render({ catalog, route }) {
     ? button('Về sản phẩm', escape(line?.product?.slug ?? 'cua-hang'))
     : button('Về giỏ hàng', 'gio-hang');
   const invalid = direct ? 'Sản phẩm hoặc số lượng đã chọn không còn khả dụng.' : 'Vui lòng kiểm tra lại giỏ hàng.';
-  if (!validCart(lines) && !retry) return page('Thanh toán', `<div class="panel stack"><p>${invalid}</p><div>${back}</div></div>`);
-  if (!catalog.settings.accepting_orders && !retry) return page('Thanh toán', `<div class="panel stack"><p>Cửa hàng hiện chưa nhận đơn.</p><div>${back}</div></div>`);
+  const valid = validCart(lines);
+  const deliveryNotice = shippingNotice(catalog.settings, valid ? lensPairCount(lines) : undefined);
+  if (!valid && !retry) return page('Thanh toán', `<div class="panel stack"><p>${invalid}</p>${deliveryNotice}<div>${back}</div></div>`);
+  if (!catalog.settings.accepting_orders && !retry) return page('Thanh toán', `<div class="panel stack"><p>Cửa hàng hiện chưa nhận đơn.</p>${deliveryNotice}<div>${back}</div></div>`);
   return page('Thanh toán', `<form class="panel stack" id="checkout">
     ${direct && line?.product ? `<div class="notice">
       <strong>${escape(line.product.name)}</strong>
@@ -38,7 +41,8 @@ export function render({ catalog, route }) {
       <label class="radio"><input type="radio" name="payment" value="transfer" checked> Chuyển khoản toàn bộ</label>
       <label class="radio"><input type="radio" name="payment" value="cod"> COD, cọc tối đa ${money(catalog.settings.cod_deposit)}</label>
     </fieldset>
-    <div id="checkout-amounts">${summary(orderAmounts(subtotal(lines), catalog.settings, 'transfer'), true)}</div>
+    ${deliveryNotice}
+    <div id="checkout-amounts" aria-live="polite">${summary(orderAmounts(lines, catalog.settings, 'transfer'), true)}</div>
     ${retry ? '<p class="notice">Bạn có thể gửi lại yêu cầu trước đó để kiểm tra kết quả mà không tạo trùng đơn.</p>' : ''}
     <p class="error" id="checkout-error" role="alert" hidden></p>
     <button class="btn primary" type="submit" ${cartState.submitting ? 'disabled' : ''}>${cartState.submitting ? 'Đang tạo đơn…' : 'Đặt hàng'}</button>
@@ -83,7 +87,7 @@ export async function submit(context, form) {
       p_payment_method: data.get('payment'),
       p_items: items
     });
-    rememberOrder(order.code);
+    rememberOrder(order);
     if (quick) saveQuickPurchase(null);
     else {
       if (cartKey() === attempt.cartKey) saveCart([]);
@@ -114,5 +118,5 @@ export function change({ main, catalog, route }, input) {
   if (input.name !== 'payment' || input.form?.id !== 'checkout') return;
   const method = input.value;
   main.querySelector('#checkout-amounts').innerHTML = summary(
-    orderAmounts(subtotal(cartDetails(catalog, selection(route).items)), catalog.settings, method), true, method === 'cod');
+    orderAmounts(cartDetails(catalog, selection(route).items), catalog.settings, method), true, method === 'cod');
 }

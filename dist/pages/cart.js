@@ -1,14 +1,17 @@
 import { orderAmounts } from '../store.js';
 import {
-  cart, cartDetails, cartState, changeQuantity, maxQuantity, pendingAttempt, saveCart, subtotal, validCart
+  cart, cartDetails, cartState, changeQuantity, maxQuantity, pendingAttempt, saveCart, validCart
 } from '../shared/cart.js';
 import { price } from '../shared/catalog.js';
 import { summary } from '../shared/order.js';
+import { lensPairCount, shippingNotice } from '../shared/shipping.js';
 import { announce, button, escape, numberFormat, page, picture, renderAndRefocus } from '../shared/ui.js';
 
 export function render({ catalog }) {
   const lines = cartDetails(catalog);
-  if (!lines.length) return page('Giỏ hàng', `<div class="panel stack"><p>Giỏ hàng đang trống.</p><div>${button('Xem cửa hàng', 'cua-hang', true)}</div></div>`);
+  if (!lines.length) return page('Giỏ hàng', `<div class="panel stack"><p>Giỏ hàng đang trống.</p>
+    ${shippingNotice(catalog.settings)}<div>${button('Xem cửa hàng', 'cua-hang', true)}</div></div>`);
+  const valid = validCart(lines);
   return page('Giỏ hàng', `<div class="stack">
     ${lines.map(({ variant_id: id, product, variant, quantity }) => `<article class="cart-row panel">
       ${picture(product?.images[0], '', 'product-pic')}
@@ -28,8 +31,9 @@ export function render({ catalog }) {
       </div>
     </article>`).join('')}
     <div class="panel stack">
-      ${summary(orderAmounts(subtotal(lines), catalog.settings, 'transfer'))}
-      ${validCart(lines) || pendingAttempt() ? button('Tiến hành thanh toán', 'thanh-toan', true)
+      ${shippingNotice(catalog.settings, valid ? lensPairCount(lines) : undefined)}
+      ${summary(orderAmounts(lines, catalog.settings, 'transfer'))}
+      ${valid || pendingAttempt() ? button('Tiến hành thanh toán', 'thanh-toan', true)
         : '<p class="notice">Cập nhật số lượng sản phẩm để tiếp tục.</p>'}
     </div>
   </div>`);

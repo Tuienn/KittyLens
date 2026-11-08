@@ -1,4 +1,4 @@
--- Chạy sau migration schema và seed, trong database thử nghiệm.
+-- Chạy sau các migration và seed, trong database thử nghiệm.
 begin;
 
 update public.shop_settings set accepting_orders = true, bank_name = 'Test Bank',
@@ -34,14 +34,14 @@ begin
   cod := public.place_order(request_one, 'Khách thử', '0900000000', 'Địa chỉ thử nghiệm', 'cod', items);
   cached := public.place_order(request_one, '', '', '', 'transfer', '[]');
   assert cod is not null and cod = cached;
-  assert (cod->>'total')::int = 102000 and (cod->>'pay_now')::int = 20000;
-  assert (cod->>'pay_on_delivery')::int = 82000;
+  assert (cod->>'total')::int = 109000 and (cod->>'pay_now')::int = 20000;
+  assert (cod->>'pay_on_delivery')::int = 89000;
   assert cod->>'customer_name' is null and cod->>'phone' is null and cod->>'address' is null;
-  assert public.lookup_order(lower(cod->>'code')) = cod;
+  assert public.lookup_order(lower(cod->>'code')) = (cod - 'payment_memo');
   assert public.lookup_order('LS-NOT-FOUND') is null;
 
   transfer := public.place_order(request_two, 'Khách khác', '+84900000000', 'Địa chỉ thử nghiệm', 'transfer', items);
-  assert (transfer->>'pay_now')::int = 102000 and (transfer->>'pay_on_delivery')::int = 0;
+  assert (transfer->>'pay_now')::int = 109000 and (transfer->>'pay_on_delivery')::int = 0;
   assert cod->>'code' <> transfer->>'code';
 
   begin

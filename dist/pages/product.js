@@ -2,6 +2,7 @@ import {
   cartState, changeQuantity, maxQuantity, quickCheckoutRoute, quickPurchase, saveQuickPurchase
 } from '../shared/cart.js';
 import { categories, price } from '../shared/catalog.js';
+import { shippingNotice } from '../shared/shipping.js';
 import { announce, escape, numberFormat, picture, renderAndRefocus } from '../shared/ui.js';
 
 let selectedVariant;
@@ -64,6 +65,7 @@ export function render({ catalog }, product) {
           <button class="btn" data-action="add" data-value="${escape(selected?.id)}" ${disabled ? 'disabled' : ''}>Thêm vào giỏ</button>
           <button class="btn primary" data-action="buyNow" data-value="${escape(selected?.id)}" ${disabled ? 'disabled' : ''}>Mua ngay</button>
         </div>
+        ${shippingNotice(catalog.settings)}
       </div>
     </div>
   </section>`;

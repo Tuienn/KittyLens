@@ -1,5 +1,7 @@
 import { isDemo, loadCatalog } from './store.js';
 import { quickCheckoutRoute, updateCartBadge } from './shared/cart.js';
+import { zaloLink } from './shared/contact.js';
+import { showPaymentQrs } from './shared/order.js';
 import { announce, escape, href, page } from './shared/ui.js';
 import * as home from './pages/home.js';
 import * as shop from './pages/shop.js';
@@ -12,6 +14,7 @@ import * as shipping from './pages/shipping.js';
 import * as returns from './pages/returns.js';
 import * as contact from './pages/contact.js';
 import * as notFound from './pages/not-found.js';
+import * as paymentApproval from './pages/payment-approval.js';
 
 const main = document.querySelector('main');
 const routes = new Map([
@@ -57,7 +60,7 @@ function setChrome() {
   document.querySelector('#footer-brand').textContent = brand;
   const socials = [['Instagram', href(settings.instagram_url)], ['Threads', href(settings.threads_url)]];
   document.querySelector('#socials').innerHTML = socials.filter(([, url]) => url)
-    .map(([name, url]) => `<a href="${url}" rel="noopener noreferrer">${name}</a>`).join('');
+    .map(([name, url]) => `<a href="${url}" rel="noopener noreferrer">${name}</a>`).join('') + zaloLink();
 }
 
 function setNavigation(route, selectedProduct) {
@@ -77,12 +80,16 @@ function render({ focus = false } = {}) {
   setNavigation(route, selectedProduct);
   if (!catalog) return;
 
-  activePage = routes.get(route) ?? (selectedProduct ? product : notFound);
-  if (lastRoute !== route) {
+  const nextPage = route.startsWith(paymentApproval.approvalPrefix) ? paymentApproval
+    : routes.get(route) ?? (selectedProduct ? product : notFound);
+  if (lastRoute !== route || nextPage !== activePage) {
+    activePage?.leave?.();
     lastRoute = route;
+    activePage = nextPage;
     activePage.enter?.(context);
   }
   main.innerHTML = activePage.render(context, selectedProduct);
+  void showPaymentQrs(main);
   if (focus) {
     main.focus({ preventScroll: true });
     window.scrollTo(0, 0);

@@ -32,9 +32,6 @@ export function validCart(lines) {
     && lines.every(line => line.product && Number.isInteger(line.quantity) && line.quantity > 0
       && line.quantity <= Math.min(maxQuantity, line.variant.stock));
 }
-export function subtotal(lines) {
-  return lines.reduce((sum, line) => sum + (line.product?.price ?? 0) * line.quantity, 0);
-}
 
 export function cartKey() {
   return cart().map(item => item.variant_id + ':' + item.quantity).sort().join(',');

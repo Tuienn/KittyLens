@@ -1,0 +1,4 @@
+project_id = "kittylens"
+
+[functions.order-mailer]
+verify_jwt = false

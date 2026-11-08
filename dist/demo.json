@@ -5,7 +5,8 @@
       "assets/reference/banner-1.jpg",
       "assets/reference/banner-2.jpg"
     ],
-    "shipping_fee": 13000,
+    "shipping_fee": 20000,
+    "cod_shipping_fee": 20000,
     "cod_deposit": 20000,
     "accepting_orders": true
   },

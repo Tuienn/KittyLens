@@ -1,5 +1,5 @@
 import { isDemo, lookupOrder } from '../store.js';
-import { copyOrderCode, orderCard, recent } from '../shared/order.js';
+import { copyOrderCode, orderCard, recent, showPaymentQrs, watchPendingOrders } from '../shared/order.js';
 import { escape, page } from '../shared/ui.js';
 
 const orderCode = /^LS-[0-9A-F]{32}$/;
@@ -7,6 +7,7 @@ let ordersView = new Map();
 let orderMessage = '';
 let orderSearch = '';
 let loadingLookup = false;
+let stopWatching;
 
 export function cacheOrder(order) {
   ordersView.set(order.code, order);
@@ -17,6 +18,14 @@ export function enter(context) {
   orderMessage = '';
   orderSearch = '';
   void loadRecentOrders(context);
+  stopWatching = watchPendingOrders(context, () => [...ordersView.values()].slice(0, 8), order => {
+    ordersView.set(order.code, order);
+    refreshOrderList(context);
+  });
+}
+
+export function leave() {
+  stopWatching?.();
 }
 
 export function render() {
@@ -44,8 +53,19 @@ async function loadRecentOrders(context) {
     if (order && !view.has(code)) view.set(code, order);
   }));
   if (context.route !== 'da-dat' || ordersView !== view) return;
+  refreshOrderList(context);
+}
+
+function refreshOrderList(context) {
   const list = context.main.querySelector('#order-list');
-  if (list && !list.contains(document.activeElement)) list.innerHTML = orderList();
+  if (!list) return;
+  const active = document.activeElement;
+  const activeCode = list.contains(active) ? active.dataset.value : null;
+  list.innerHTML = orderList();
+  if (activeCode) {
+    [...list.querySelectorAll('[data-action]')].find(button => button.dataset.value === activeCode)?.focus();
+  }
+  void showPaymentQrs(list);
 }
 
 async function searchOrder(context, code) {

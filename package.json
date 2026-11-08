@@ -1,0 +1,14 @@
+{
+  "name": "kittylens-store",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:qr": "esbuild scripts/vietqr.mjs --bundle --platform=browser --format=esm --minify --outfile=dist/vendor/vietqr.js"
+  },
+  "dependencies": {
+    "vietqr": "1.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}
