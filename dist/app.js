@@ -53,10 +53,12 @@ const context = {
 
 function setChrome() {
   const settings = catalog.settings;
-  const brand = settings.brand || 'Lens Studio';
+  const configuredBrand = settings.brand?.trim();
+  const brand = !configuredBrand || /^lens studio$/i.test(configuredBrand) ? 'LENS SHOP' : configuredBrand;
   document.title = brand;
-  document.querySelector('#brand').textContent = brand;
-  document.querySelector('#brand').setAttribute('aria-label', brand + ', trang chủ');
+  const brandName = document.querySelector('#brand');
+  brandName.textContent = brand;
+  brandName.parentElement.setAttribute('aria-label', brand + ', trang chủ');
   document.querySelector('#footer-brand').textContent = brand;
   const socials = [['Instagram', href(settings.instagram_url)], ['Threads', href(settings.threads_url)]];
   document.querySelector('#socials').innerHTML = socials.filter(([, url]) => url)

@@ -1,6 +1,6 @@
 -- Dữ liệu mẫu. Giữ accepting_orders = false đến khi cấu hình tài khoản thật.
 begin;
-update public.shop_settings set banners = array['assets/reference/banner-1.jpg', 'assets/reference/banner-2.jpg'] where id = 1;
+update public.shop_settings set banners = array['assets/lens-shop-profile.png'] where id = 1;
 
 insert into public.products (slug,name,category,price,description,images,diameter,colored_diameter,base_curve,water_content,sort_order)
 select slug,name,category,price,description,images,diameter,colored_diameter,base_curve,water_content,sort_order

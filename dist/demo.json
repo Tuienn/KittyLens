@@ -1,9 +1,8 @@
 {
   "settings": {
-    "brand": "Lens Studio",
+    "brand": "LENS SHOP",
     "banners": [
-      "assets/reference/banner-1.jpg",
-      "assets/reference/banner-2.jpg"
+      "assets/lens-shop-profile.png"
     ],
     "shipping_fee": 20000,
     "cod_shipping_fee": 20000,

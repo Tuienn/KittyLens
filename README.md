@@ -1,6 +1,6 @@
 # Lens Studio
 
-Cửa hàng lens tiếng Việt dùng HTML, CSS, JavaScript và Supabase Cloud. Bản xem trước có 20 sản phẩm mẫu và dùng 31 ảnh công khai từ Kitty Lens trong `dist/assets/reference/`. Giá và tồn là dữ liệu minh họa. Ảnh banner tham chiếu có thể chứa nhận diện của Kitty Lens. Chọn ảnh và nhận diện phù hợp với shop trước khi mở bán.
+Cửa hàng lens tiếng Việt dùng HTML, CSS, JavaScript và Supabase Cloud. Bản xem trước có 20 sản phẩm mẫu và dùng 29 ảnh sản phẩm công khai từ Kitty Lens trong `dist/assets/reference/`. Giá và tồn là dữ liệu minh họa. Chọn ảnh và nhận diện phù hợp với shop trước khi mở bán.
 
 ## Chạy bản xem trước
 
